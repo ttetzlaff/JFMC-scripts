@@ -1,4 +1,8 @@
-all = userInput(type: "ARTIFACTORY", multivalued: true, description: "All Instances")
+all = userInput(
+    type: "ARTIFACTORY", 
+    multivalued: true, 
+    description: "All Instances"
+)
 
 for (instance in all) {
   artifactory(instance.name){
