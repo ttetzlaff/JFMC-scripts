@@ -1,5 +1,5 @@
 artifactory('art') {
-  localRepository('repo14') {
+  localRepository('repo15') {
     description "Public descriptions"
     notes "Some internal notes"
     includesPattern "**/*"
